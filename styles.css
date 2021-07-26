@@ -1,0 +1,22 @@
+body::before{
+    display: block;
+    content: '';
+    height:60px;
+}
+
+
+@media(min-width:768px){
+    .news-input{
+        width: 50%;
+    }
+}
+
+@media(max-width:768px){
+    .news-text{
+        padding-bottom: 2px;
+        text-align: center;
+    }
+    .fundamentals-text{
+        text-align: justify;
+    }
+}
